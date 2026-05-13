@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+         <script src=""></script>
+    </head>
+    <body>
+        <div class="contenedor">
+            <h2>REGISTRO DE PACIENTES</h2>
+
+            <form id="registropacientes">
+                <label>Nombre:</label><br>
+                <input type="text" id ="Nombre" name="Nombrepaciente" placeholder="Ingrese nombre paciente">
+                <div id="errornombre" class="error"></div>
+
+                <label>Edad:</label><br>
+                <input type="number" id ="Edad" name="Edadpaciente" placeholder="Ingrese edad paciente">
+                <div id="erroredad" class="error"></div>
+
+                <label>Peso:</label><br>
+                <input type="number" id ="Peso" name="Pesopaciente" placeholder="Ingrese peso paciente">
+                <div id="errorpeso" class="error"></div>
+
+                <label>Estatura:</label><br>
+                <input type="number" step="0.01" id="estatura" name="Estaturapaciente" placeholder="Ingrese estatura paciente">
+                <div id="errorestatura" class="error"></div>
+
+                <button type="submit">Registrar</button>
+
+
+            </form>
+            
+            <div id="mensaje"></div>
+                
+        </div>
+
+        <script src="ejercicio8.js"></script>
+    </body>
+</html>

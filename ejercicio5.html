@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="contenedor">
+            <h2>SISTEMA DE NOTAS</h2>
+
+            <form id="formularionotas">
+                <label>Nombre del estudiante:</label><br>
+                <input type="text" id ="Nombreestudiante" name="Nombreestudiante" placeholder="Ingrese nombre del estudiante">
+                <div id="errornombre" class="error"></div>
+
+                <label>Nota 1:</label><br>
+                <input type="number" id ="Nota1" name="Nota1" placeholder="Ingrese nota 1">
+                <div id="errornota1" class="error"></div>
+
+                <label>Nota 2:</label><br>
+                <input type="number" id ="Nota2" name="Nota2" placeholder="Ingrese nota 2">
+                <div id="errornota2" class="error"></div>
+
+                <label>Nota 3:</label><br>
+                <input type="number" id ="Nota3" name="Nota3" placeholder="Ingrese nota 3">
+                <div id="errornota3" class="error"></div>
+
+                <button type="submit">Calcular promedio</button>
+            </form>
+            
+            <div id="mensaje"></div>
+                
+        </div>
+
+        <script src="ejercicio5.js"></script>
+    </body>
+</html>
+
+
+

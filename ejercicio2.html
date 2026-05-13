@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div class="container">
+        <h2>REGISTRO DE ESTUDIANTES </h2>
+
+        <form id="registroForm">
+
+            <label>Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+            <div id="errornombre" class="error"></div>
+
+            <label>Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico">
+            <div id="erroremail" class="error"></div>
+
+            <label>Edad:</label><br>
+            <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
+            <div id="erroredad" class="error"></div>
+
+            <label>Programa de formacion:</label><br>
+            <input type="text" id="programa" name="programa" placeholder="Ingrese su programa de formación">
+            <div id="errorprograma" class="error"></div><br>
+
+            <button type="submit">Registrar</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="ejercicio2.js"></script>
+</body>
+</html>
+
+</body>

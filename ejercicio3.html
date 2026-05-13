@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <div class="container">
+        <h2>SISTEMA DE RESERVAS </h2>
+
+        <form id="reservaForm">
+
+            <label>Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+            <div id="errornombre" class="error"></div>
+
+            <label>Numero de personas :</label><br>
+            <input type="number" id="personas" name="personas" placeholder="Ingrese el número de personas">
+            <div id="errorpersonas" class="error"></div>
+
+            <label>Fecha de reserva:</label><br>
+            <input type="date" id="fecha" name="fecha">
+            <div id="errorfecha" class="error"></div>
+
+            <label>Hora de reserva:</label><br>
+            <input type="text" id="hora" name="hora" placeholder="Ingrese la hora de reserva">
+            <div id="errorhora" class="error"></div>
+
+            <button type="submit">Resevar</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="ejercicio3.js"></script>
+</body>
+</html>
+
+</body>
